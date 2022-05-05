@@ -1,0 +1,33 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "ProofOfConceptAppStartup"
+include ':app'
+include ':di'
+include ':binding'
+include ':feature1'
+include ':feature1-impl'
+include ':feature2'
+include ':feature2-impl'
+include ':feature3'
+include ':feature3-impl'
+include ':feature4'
+include ':feature-app-info'
+include ':di-ext'
+include ':android-stub'
+include ':feature-api-url-provider'
+include ':feature-api-url-provider-impl'
+include ':binding-release'
+include ':binding-debug'
+include ':di-debug'
